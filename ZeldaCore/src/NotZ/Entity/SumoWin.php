@@ -33,7 +33,7 @@ class SumoWin extends Monster{
     $AllKills = Core::getInstance()->sumo->getAll();
     arsort($AllKills);
     $top = 1;
-    $nametag = "§f§l» §f§bMost Today Sumo Win Player §f«";
+    $nametag = "§f§l» §f§bMost Today Sumo Win Players §f«";
     foreach($AllKills as $name => $value){
     if($top > 5)break;
     $nametag .= "\n§f{$top} §b- §e{$name} §fhas §e{$value} §fWins";
