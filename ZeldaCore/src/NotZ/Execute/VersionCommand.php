@@ -20,9 +20,9 @@ class VersionCommand extends PluginCommand {
 	public function execute(CommandSender $sender, string $commandLabel, array $args)
 	{
 		if (isset($args[0])){
-			$sender->sendMessage("§e>> §bThis server is running ZeldaCore §eImplementing §cPHP 7.4");
+			$sender->sendMessage("§e>> §bThis server is running ZeldaCore §eImplementing §cPHP 8.0");
 		} else {
-			$sender->sendMessage("§e>> §bThis server is running ZeldaCore §eImplementing §cPHP 7.4");
+			$sender->sendMessage("§e>> §bThis server is running ZeldaCore §eImplementing §cPHP 8.0");
 		}
 	}
 }
