@@ -30,8 +30,8 @@ class Arena {
 	
 	public function getArena(){
 		return $this->arena;
-		
 	}
+
 	public function getMode(Player $player) {
 		if($player->getLevel() == Server::getInstance()->getLevelByName(Core::getCreator()->getFistArena())){
 		    return "Fist";
