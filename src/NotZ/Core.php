@@ -4,7 +4,6 @@ namespace NotZ;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
-use pocketmine\entity\object\ItemEntity;
 use pocketmine\entity\Entity;
 use pocketmine\scheduler\Task;
 use pocketmine\entity\projectile\Arrow;
