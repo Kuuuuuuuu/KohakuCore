@@ -1,7 +1,5 @@
 <?php
 
-declare(strict_types=1);
-
 namespace NotZ\Arena;
 
 use pocketmine\block\Block;
