@@ -1,6 +1,5 @@
 name: ZeldaCore
 version: 1.0.0
-api: 4.0.0
+api: 3.0.0
 main: NotZ\Core
 depend: ["PurePerms", "PureChat"]
-Tee
