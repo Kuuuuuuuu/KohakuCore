@@ -307,7 +307,7 @@ class Core extends PluginBase implements Listener {
     }
 
     public function setFakeOs(Player $player, string $fakeOs) : bool{
-        if($fakeOs == "") return false;
+        if($fakeOs === "") return false;
         $this->fakeOs[strtolower($player->getName())] = $fakeOs;
         return true;
     }
